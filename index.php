@@ -1,6 +1,11 @@
 <?php
 require_once 'vendor/autoload.php';
 use App\classes\Student;
+use App\classes\Product;
 
-$student = new Student();
-$student->manage();
+
+$product = new Product();
+$product->index();
+
+
+

@@ -11,6 +11,6 @@ protected  $city = 'Dhaka';
 
 public function index()
 {
-    echo 'Institution name is '.$this->name.'and the city name is'.$this->city;
+    echo 'Institution name is '.$this->name.' and the city name is '.$this->city;
 }
 }
